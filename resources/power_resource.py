@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from flask import request
-from app.models import Power
-from app.extensions import db
+from models import Power
+from extensions import db
 
 class PowerListResource(Resource):
     def get(self):

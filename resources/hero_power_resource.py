@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from flask import request
-from app.models import HeroPower, Hero
-from app.extensions import db
+from models import HeroPower, Hero
+from extensions import db
 
 class HeroPowerListResource(Resource):
     def post(self):

@@ -1,8 +1,8 @@
-"""feat: add Hero, Power, and HeroPower models with validations
+"""init
 
-Revision ID: a6a6116782e9
+Revision ID: 5b49c13d7d39
 Revises: 
-Create Date: 2025-06-17 20:00:37.324534
+Create Date: 2025-06-18 09:34:00.517103
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'a6a6116782e9'
+revision = '5b49c13d7d39'
 down_revision = None
 branch_labels = None
 depends_on = None

@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from flask import request
-from app.models import Hero
-from app.extensions import db
+from models import Hero
+from extensions import db
 
 class HeroListResource(Resource):
     def get(self):
