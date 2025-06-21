@@ -1,7 +1,7 @@
 # seed.py
 from app import create_app
-from app.extensions import db
-from app.models import Hero, Power, HeroPower
+from extensions import db
+from models import Hero, Power, hero_power
 
 app = create_app()
 
