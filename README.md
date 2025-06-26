@@ -62,7 +62,7 @@ superheroesAPI/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/superheroesAPI.git
+git clone https://github.com/wachira-alt/superheroesAPI.git
 cd superheroesAPI
 ````
 
